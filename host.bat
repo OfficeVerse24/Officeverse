@@ -19,11 +19,11 @@ if not exist Build (
 )
 
 REM Start a local server with Python
-echo Hosting WebGL build at http://localhost:6000
+echo Hosting WebGL build at http://localhost:8000
 echo Press Ctrl+C to stop the server.
 
 REM Open the browser twice
-start http://localhost:7000
+start http://localhost:3000
 
 REM Start the server
-python -m http.server 7000
+python -m http.server 3000
